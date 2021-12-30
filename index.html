@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Turismo Lorem Ipsum </title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="caixa1">
+        <div class="conteudo-titulo">
+            <span class="titulo"> LOREM IPSUM TURISMO </span>
+
+        </div>
+    </div>
+    <div>
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="container">
+                <div class="colapse navbar-collapse">
+                    <ul class ="navbar-nav mx-auto"> 
+                        <li class="nav-item">
+                            <a href="" class="nav-link"> HOME </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link"> QUEM SOMOS </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link"> DESTINOS </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link"> PACOTES </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link"> CONTATO </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="conteudo">
+        <h5> Lorem ipsum </h5>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In earum fuga vitae harum dolores ipsam odio explicabo quam. Iure libero quas adipisci provident nam a molestias placeat nostrum molestiae nisi!</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui odio expedita quibusdam ullam necessitatibus earum officiis esse atque asperiores accusamus, blanditiis debitis nobis doloribus cum perspiciatis iste! Explicabo, eum?</p>
+    </div>
+
+    <div class="caixa2">
+        
+    </div>
+
+    <div class="caixa3">
+        
+    </div>
+
+    <div class="caixa4">
+        
+    </div>
+
+    <div class="newsarea">
+        <div>
+            <h6 class="subtitulo"> Fique por dentro das novidades ! </h6>
+        </div>
+        <br>
+        <div class = "areaauxiliar">
+            <p> Assine gratuitamente a nossa newsletter e receba as informações dos melhores destinos </p>
+        </div>
+        <div class="espacobtn">
+            <form action="">
+                <input class= "emailcampo"type="email" class"form-control" id="email-input" name="email" placeholder="Digite o seu email">
+                <input class ="newbtn" type="submit" id="news-btn" value="inscrever">
+            </form>
+        </div>
+        <div id="call-area">
+        <p>Ficou com dúvida também ? Faça agora mesmo um orçamento sem compromisso </p>
+            <div class="conteiner2">
+                <div>
+                    <button class="botao2 id="call-btn"> CLIQUE AQUI </button>
+                </div>
+            </div>
+        </div>
+        <div class="conteiner3">
+        <p> Clique abaixo para atualizar a página, bem como também conhecer os novos estilos</p>
+        <div>
+            <button onclick="window.location.reload()" class="botao3" onclick="makeRandomColor()"id="muda-btn"> Atualizar Página </button>
+            <button class="botao3" id=" btncinza"> Cinza escuro </button>
+            <button class="botao3" id=" btnverde"> Verde claro </button>
+
+
+            <!-- Eventualmente atualização por onClick="window.location.href=window.location.href na tag button 
+            
+                Também onClick="refreshPage() ou com função JavaScript:
+
+                var btn = document.querySelector("#refresh");
+                btn.addEventListener("click", function() {
+    
+                gitlocation.reload();
+
+
+                 outra função: 
+
+                 <script> 
+                    function refreshPage(){
+                        windown.location.reload();
+                    }
+                <script>
+
+                    Para mudança de cores, alternativamente serão eleboradas funções para mudança com o "onclik" do usuário. 
+            
+            -->
+        </div>
+        <script>
+            function makeRandomColor() {
+                var c = '';
+                while (c.length < 7){
+                    c += (Math.random()).toString(16).substr(-6).substr(-1)
+                }
+            }
+        </script>
+        </div>
+
+       
+
+        
+    </div>
+    <footer class="mt-4 mb-4">
+        <div class="conteiner">
+            <div class="row">
+                <p class="col-md-7 justify-content-sm-center">
+                    <a class="primeiro" href=""> Home </a>
+                    <a href=""> Quem somos </a>
+                    <a href=""> Destinos </a>
+                    <a href=""> Pacotes </a>
+                    <a href=""> Contato </a>
+                </p>
+                <div class="col-md-3 d-flex justify-content-end"> Redes Sociais:
+                    <a href="" class="text-secondary ml-2"></a>
+                    <i class="fab fa-facebook fa-2x"></i>
+                    <a href="" class="text-secondary ml-2"></a>
+                    <i class="fab fa-instagram fa-2x"></i>
+                    <a href="" class="text-secondary ml-2"></a>
+                    <i class=" fab fa-pinterest fa-2x"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+</html>

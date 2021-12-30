@@ -1,0 +1,204 @@
+
+body, html {
+    margin: 0;
+    font: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    background-color: #D0D2F2;
+
+}
+
+.conteudo {
+    color: rgb(63, 63, 63);
+    background-color: rgba(255, 255, 255, 0.100);
+    text-align: justify;
+    padding: 50px 80 px;
+    backdrop-filter: blur(0.5);
+    -webkit-backdrop-filter: blur;
+    
+}
+
+h5 {
+    text-transform: uppercase;
+    color: #3D3D3D;
+    text-align: center;
+    padding-top: 30px;
+}
+
+p{
+    margin-bottom: 30px;
+}
+
+
+/*  Início da formatação do parallax */
+
+.caixa1, .caixa2, .caixa3, .caixa4 {
+    height: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.caixa1 {
+    background-image: url(imagens/imagem1.jpg);
+}
+
+.caixa2 {
+    background-image: url(imagens/imagem2.jpg);
+}
+
+.caixa3 {
+    background-image: url(imagens/imagem3.jpg);
+}
+
+.caixa4 {
+    background-image: url(imagens/imagem4.jpg);
+}
+
+.conteudo-titulo{
+    position: absolute;
+    left: 00%;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.conteudo-titulo span.titulo{
+    color: rgb(63, 63, 63);
+    background-color: rgba(255, 255, 255, 0.100);
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    backdrop-filter: blur(0.5);
+    -webkit-backdrop-filter: blur;
+}
+
+.subtitulo {
+    color: #3D3D3D;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.newsarea{
+    text-align: center;
+}
+
+.areaauxiliar {
+    padding-bottom: 20px;
+}
+
+.emailcampo{
+    border-radius: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 4px solid #6593A6;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+.newbtn{
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 3px solid #6593A6;
+    background-color: #6593A6;
+    text-transform: uppercase;
+    color: #3D3D3D;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -130px;
+    position: absolute;
+    transition: .5s;
+
+}
+
+.newbtn:hover {
+    background-color: #fff;
+    color: #6593A6;
+}
+
+.espacobtn{
+    padding-bottom: 40px;
+}
+
+#call-area{
+    background-color:#6593A6;
+}
+
+#call-area p {
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: auto;
+    display: inline;
+    margin-bottom: 0px;
+    height:60px;
+    line-height: 60px;
+}
+
+.botao2{
+
+    border-radius:40px;
+    border: 4px solid white;
+    color: #6593A6 bold;
+    text-transform: uppercase;
+    background-color: white;
+    transition: .5s;
+    width: 200px;
+    height: 40px;
+}
+
+.botao2:hover{
+    color: #6593A6;
+    background-color: #3D3D3D;
+    font: bold;
+} 
+
+.conteiner2{
+
+    padding-top:10px;
+    padding-bottom:30px;
+}
+
+.conteiner3 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.botao3{
+
+    border-radius:40px;
+    border: 3px solid #6593A6;
+    background-color: #6593A6;
+    text-transform: uppercase;
+    background-color: white;
+    transition: .5s;
+    width: 200px;
+    height: 40px;
+}
+
+.botao3:hover{
+    background-color: #6593a6;
+    color: #3D3D3D;
+}
+
+footer p a {
+    padding: 5px;
+    margin: 10px 15px;
+    width: auto;
+    display: inline;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
